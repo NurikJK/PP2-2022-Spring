@@ -1,6 +1,6 @@
 import os,shutil
 
-alphabet = 'ABCDEGHIJKLMNOPQRSTUVWXYZ'
+alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 folder = input('Enter foldername: ')
 if not os.path.exists(folder):
