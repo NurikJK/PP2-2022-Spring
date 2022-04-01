@@ -9,8 +9,8 @@ player_icon = pygame.transform.scale(pygame.image.load('img\\player_mp3.jpg'), (
 paused = True
 left = right = mid = False
 current = 0
-for i in os.listdir("C:\\pygame\\player\\playlist"):
-    music = pygame.mixer.Sound("C:\\pygame\\player\\playlist\\" + str(i))
+for i in os.listdir("C:\\pp2\\Labs\\Lab7\\player\\playlist"):
+    music = pygame.mixer.Sound("C:\\pp2\\Labs\\Lab7\\player\\playlist" + str(i))
     musics.append(music)
 
 while True:
